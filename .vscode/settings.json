@@ -1,0 +1,11 @@
+{
+    "git.autofetch": true,
+    "workbench.startupEditor": "none",
+    "prettier.endOfLine": "auto",
+    "git.confirmSync": false,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true
+  }
+  
