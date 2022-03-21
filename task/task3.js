@@ -1,9 +1,9 @@
 function fazzFood(harga, voucher, jarak, pajak) {
-  voucher = voucher.toUpperCase();
   let potongan;
   let biayaAntar;
   let biayaPajak;
   let subtotal;
+  voucher = voucher.toUpperCase();
 
   //penentuan voucher
   if (voucher === "FAZZFOOD50") {
@@ -36,8 +36,7 @@ function fazzFood(harga, voucher, jarak, pajak) {
 
 function hitJarak(jarak) {
   if (jarak >= 2) {
-    biayaAntar = 5000;
-    biayaAntar = biayaAntar + (jarak - 2) * 3000;
+    biayaAntar = 5000 + (jarak - 2) * 3000;
   } else {
     biayaAntar = 5000;
   }
@@ -76,4 +75,4 @@ function ditraktir60(harga) {
   return potongan;
 }
 
-fazzFood(10000, "ditraktir60", 20, true);
+fazzFood(10000, "ditraktir60", 2, true);
