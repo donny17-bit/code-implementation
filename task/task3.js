@@ -23,8 +23,8 @@ function fazzFood(harga, voucher, jarak, pajak) {
   } else {
     biayaPajak = 0;
   }
-
-  subtotal = harga - potongan + biayaAntar + biayaPajak;
+  potongan;
+  subtotal = harga - +biayaAntar + biayaPajak;
 
   console.log(`kode voucher : ${voucher}`);
   console.log(`harga makanan : ${harga}`);
@@ -75,4 +75,4 @@ function ditraktir60(harga) {
   return potongan;
 }
 
-fazzFood(10000, "ditraktir60", 2, true);
+fazzFood(50000, "ditraktir60", 2, true);

@@ -1,5 +1,5 @@
 // reverse word
-let message = "Hello saya dari ausie";
+let message = "Hello saya dari tadi";
 // message = message.toUpperCase();
 let hasil = "";
 

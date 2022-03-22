@@ -1,5 +1,5 @@
 // deteksi palindrom
-let kata = "malam";
+let kata = "kata";
 let panjangKata = kata.length - 1;
 let result = "";
 
@@ -17,4 +17,3 @@ if (kata != "number") {
 } else {
   console.log(`${kata} bukan harus berupa string`);
 }
-// console.log(kata != "number");
